@@ -40,7 +40,7 @@ pip install -r requirements.txt
 python run_all.py
 ```
 
-`run_all.py` verifies primary dataset SHA256 checksums, regenerates all experimental CSVs in `results/` (including `mc_validation_gamma_gt0.csv`, `case_E2_asymmetric_gamma.csv`, `case_E5_counterfactual_attribution.csv`, and `supplemental_sensitivity_checks.csv`), renders all figures in `figures/`, executes automated claim-to-CSV, prose-hygiene, disjoint-table, and blinding assertions via `experiments/verify_claims.py`, compiles `title_page.pdf`, `manuscript.pdf`, and `supplementary.pdf`, strips PDF metadata, and writes `SUBMISSION_CHECKLIST.md`. Because the CTMC matrix-exponential and two-stage grid-bracketed optimizer (`Algorithm S1`) are purely deterministic without pseudo-random sampling, repeated runs reproduce identical outputs byte for byte.
+`run_all.py` verifies primary dataset SHA256 checksums, regenerates all experimental CSVs in `results/` (including `mc_validation_gamma_gt0.csv`, `case_E2_asymmetric_gamma.csv`, `case_E5_counterfactual_attribution.csv`, and `supplemental_sensitivity_checks.csv`), renders all figures in `figures/`, executes automated claim-to-CSV, prose-hygiene, disjoint-table, and blinding assertions via `experiments/verify_claims.py`, compiles `manuscript.pdf` and `supplementary.pdf`, strips PDF metadata, and writes `SUBMISSION_CHECKLIST.md`. Because the CTMC matrix-exponential and two-stage grid-bracketed optimizer (`Algorithm S1`) are purely deterministic without pseudo-random sampling, repeated runs reproduce identical outputs byte for byte.
 
 ## License
 
