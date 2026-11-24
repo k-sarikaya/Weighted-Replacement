@@ -1,0 +1,4 @@
+mechanism,MF,source,rho_1.03,rho_1.05,rho_1.08,rho_1.10,rho_1.12,rho_1.15
+Rotor_Branch_MF2.00,2.0,GER-3620 Fig. 44 (p. 35),23.45,14.21,9.01,7.27,6.12,4.96
+HGP_BE_Branch_MF6.05,6.05,"GER-3620 Fig. 10 & App. A.1 (p. 7, 39)",60.9,36.89,23.39,18.89,15.88,12.88
+HGP_F_Ref_MF9.97,9.9742,"GER-3620 Fig. 10 formula (p. 7, reference)",77.81,47.14,29.89,24.13,20.29,16.46
